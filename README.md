@@ -1,3 +1,3 @@
 # github-actions-frontend
 
-![Image](https://github.com/user-attachments/assets/051a7f5f-2cfc-4c71-98db-01e6e7ee8acf)
+![Image](https://github.com/user-attachments/assets/cfaa2a4b-423f-4cae-b955-d2467b647f41)

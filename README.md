@@ -15,9 +15,9 @@ on:
 
 env:
   AWS_REGION: 'ap-northeast-2'
-  S3_BUCKET: 'github-test-stg.maum.ai'
-  DISTRIBUTION_ID: 'E1OH4CAZIA1RV5'
-  WEB_DEPLOYMENT_ROLE_ARN: 'arn:aws:iam::139243783662:role/GithubCI-MaumAI-Company'
+  S3_BUCKET: '${s3_butket_name}'
+  DISTRIBUTION_ID: '${distribution_id}'
+  WEB_DEPLOYMENT_ROLE_ARN: 'arn:aws:iam::${account_id}:role/GithubCI-MaumAI-Company'
 
 permissions:
   id-token: write   # This is required for requesting the JWT
@@ -77,9 +77,9 @@ on:
 
 env:
   AWS_REGION: 'ap-northeast-2'
-  S3_BUCKET: 'github-test.maum.ai'
-  DISTRIBUTION_ID: 'E1UD2LU1FCY2OK'
-  WEB_DEPLOYMENT_ROLE_ARN: 'arn:aws:iam::139243783662:role/GithubCI-MaumAI-Company'
+  S3_BUCKET: '${s3_butket_name}'
+  DISTRIBUTION_ID: '${distribution_id}'
+  WEB_DEPLOYMENT_ROLE_ARN: 'arn:aws:iam::${account_id}:role/GithubCI-MaumAI-Company'
 
 permissions:
   id-token: write   # This is required for requesting the JWT
